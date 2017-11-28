@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : "SwitchHaxing"
 description              : "Full homebrew guide"
 url                      : "https://swtchhaxing.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-enforce_ssl              : ""
+enforce_ssl              : 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "SwitchHaxing/Guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
