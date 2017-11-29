@@ -17,7 +17,7 @@
             {% else %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ locale_var }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
-          {% endfor %} -->
+          {% endfor %} 
         </ul>
         <ul class="hidden-links links-menu hidden"></ul>
         <ul class="hidden-links lang-menu hidden">
@@ -29,7 +29,7 @@
           {% endif %}
           {% if langless_url == "index.html" %}
             {% assign langless_url = "" %}
-          {% endif %}
+          {% endif %} -->
           <li class="masthead__menu-item"><a href="{{ site.url }}/{{ langless_url }}">English</a></li>
           <li class="masthead__menu-item"><a href="{{ site.url }}/es_ES/{{ langless_url }}">Español</a></li>
           <li class="masthead__menu-item"><a href="{{ site.url }}/de_DE/{{ langless_url }}">Deutsch</a></li>
