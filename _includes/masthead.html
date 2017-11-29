@@ -3,7 +3,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <ul class="visible-links">
-          <!--{% assign split_path = page.path | split: "/" %}
+          {% assign split_path = page.path | split: "/" %}
           {% assign locale = split_path[1] %}
           {% assign titles = site.data.navigation[locale].main %}
           {% if locale == 'en_US' %}
@@ -13,9 +13,9 @@
           {% endif %}
           {% for link in site.data.navigation[locale].main %}
             {% if link.url == "/" %}
-              <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ domain }}{{ locale_var }}">{{ link.title }}</a></li> -->
-            {% else %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ locale_var }}{{ link.url }}">{{ link.title }}</a></li>
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ domain }}{{ locale_var }}">{{ link.title }}</a></li>
+            <!-- {% else %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ locale_var }}{{ link.url }}">{{ link.title }}</a></li> -->
             {% endif %}
           {% endfor %}
         </ul>
