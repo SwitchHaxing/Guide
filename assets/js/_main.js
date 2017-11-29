@@ -78,7 +78,7 @@ $(document).ready(function(){
     $("nav.greedy-nav .links-menu").css("right", "auto");
     $("nav.greedy-nav .lang-menu").css("right", "auto");
 
-    $("nav.greedy-nav .links-menu").css("left", "2.5rem");
+    $("nav.greedy-nav .links-menu").css("left", "0.5rem");
     $("nav.greedy-nav .lang-menu").css("left", ".2rem");
 
     $("nav.greedy-nav .visible-links").css("padding-right", "0");
