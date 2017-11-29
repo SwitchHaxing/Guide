@@ -3,7 +3,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <ul class="visible-links">
-          {% assign split_path = page.path | split: "/" %}
+          <!--{% assign split_path = page.path | split: "/" %}
           {% assign locale = split_path[1] %}
           {% assign titles = site.data.navigation[locale].main %}
           {% if locale == 'en_US' %}
@@ -17,7 +17,7 @@
             {% else %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ locale_var }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
-          {% endfor %}
+          {% endfor %} -->
         </ul>
         <ul class="hidden-links links-menu hidden"></ul>
         <ul class="hidden-links lang-menu hidden">
@@ -63,8 +63,8 @@
           <!-- <li class="masthead__menu-item"><a href="{{ site.url }}/cs_CZ/{{ langless_url }}">Čeština</a></li> -->
           <!-- <li class="masthead__menu-item"><a href="{{ site.url }}/en_PT/{{ langless_url }}">Pirate English</a></li> -->
         </ul>
-        <!--<button class="navsel"><div class="navicon"></div></button>
-        <button class="langsel"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button> -->
+        <button class="navsel"><div class="navicon"></div></button>
+        <button class="langsel"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
       </nav>
     </div>
   </div>
