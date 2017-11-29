@@ -19,8 +19,8 @@
             {% endif %}
           {% endfor %} 
         </ul>
-        <ul class="hidden-links links-menu hidden"></ul>
-       <!-- <ul class="hidden-links lang-menu hidden">
+        <!-- <ul class="hidden-links links-menu hidden"></ul>
+       <ul class="hidden-links lang-menu hidden"> -->
           {% assign split_url = page.url | split: "/" %}
           {% if split_url.size == 3 %}
             {% assign langless_url = split_url[2] %}
