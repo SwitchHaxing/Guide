@@ -13,11 +13,11 @@
           {% endif %}
           {% for link in site.data.navigation[locale].main %}
             {% if link.url == "/" %}
-              <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ domain }}{{ locale_var }}">{{ link.title }}</a></li>
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ domain }}{{ locale_var }}">{{ link.title }}</a></li> -->
             {% else %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ locale_var }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
-          {% endfor %} -->
+          {% endfor %}
         </ul>
         <ul class="hidden-links links-menu hidden"></ul>
         <ul class="hidden-links lang-menu hidden">
