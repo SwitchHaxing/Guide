@@ -18,8 +18,6 @@ This guide not fully complete as there is no methods for homebrew yet.
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-<div class="notice--success">{{ notice-1 | markdownify }}</div>
-
 ## What is Homebrew?
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
@@ -30,15 +28,11 @@ The only exploit that we have at the moment is PegaSwitch.
 
 **Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
 
-CFW can be set up on any console on any version (but may require additional tools / accessories for versions >11.3.0).
+CFW currently does not exist for the Nintendo Switch as of now.
 
 ## What does this guide install?
 
 Who knows.
-
-## What can I do with Custom Firmware?
-
-CFW is not on the Switch :(
 
 ## What do I need to know before starting?
 
@@ -46,8 +40,6 @@ CFW is not on the Switch :(
 + This guide will work on the Switch on firmware 3.0.0 or below.
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
 + Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with your device will be MBR by default).
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 
