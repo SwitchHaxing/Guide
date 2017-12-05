@@ -17,6 +17,7 @@ sitemap: false
 
 + [Credits](credits)
 + [FAQ](faq)
++ [Finalizing Setup](finalizing-setup)
 + [Get Started](get-started)
 + [Home](/)
 + [Troubleshooting](troubleshooting)
