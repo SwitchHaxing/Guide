@@ -12,7 +12,7 @@ Click the firmware option that is based on what your Switch firmware is on.
 
 *Make this longer, ect...*
 
-### Device Table
+### Firmware Table
 
 <table>
   <colgroup>
