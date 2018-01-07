@@ -6,7 +6,7 @@ header:
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "A complete guide to Switch homebrew, <br /> from stock to stock.<br />"
+excerpt: "A complete guide to Switch homebrew, <br /> from stock to being able to run some Homebrew.<br />"
 ---
 
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
@@ -22,22 +22,22 @@ This guide not fully complete as there is no methods for homebrew yet.
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
-The only exploit that we have at the moment is PegaSwitch.
+The only exploit that we have at the moment is PegaSwitch, while a few others seem to be in development.
 
 ## What is Custom Firmware?
 
 **Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
 
-CFW currently does not exist for the Nintendo Switch as of now.
+CFW currently does not exist for the Nintendo Switch as of now. 1.0.0 is currently the best firmware for a possible CFW release.
 
 ## What does this guide install?
 
-Who knows.
+Nothing; the end result will allow you to run Homebrew applications on your console without needing to install anything directly.
 
 ## What do I need to know before starting?
 
 + **Before beginning the guide, you must know the risks of Switch hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on the Switch on firmware 3.0.0 or below.
++ This guide will work on the Switch on firmware 3.0.0 or below. Anything above does not currently have available exploits.
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
 + Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
 
