@@ -10,7 +10,6 @@ If I forgot you here, contact me and I'll add your name.
    +SwitchBrew wiki editors.
    +All of the members of the SwitchHaxing subreddit.
    
-
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
