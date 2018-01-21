@@ -10,7 +10,7 @@ This page will help you find a suitable exploit access point for getting homebre
 
 Click the firmware option that is based on what your Switch firmware is on.
 
-*Make this longer, ect...*
+*Make this longer, etc...*
 
 ### Firmware Table
 
