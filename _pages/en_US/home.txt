@@ -13,7 +13,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 {: .notice--warning}
 
 {% capture notice-1 %}
-This guide not fully complete as there is no methods for homebrew yet.
+This guide not complete as there are no user-friendly methods for homebrew yet.
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
@@ -28,7 +28,9 @@ The only exploit that we have at the moment is PegaSwitch, while a few others se
 
 **Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
 
-CFW currently does not exist for the Nintendo Switch as of now. 1.0.0 is currently the best firmware for a possible CFW release.
+CFW currently does not currently exist for the Nintendo Switch.
+3.0.2 and lower will eventually gain access to SciresM's CFW *Atmosphère-NX*, but the higher you are the longer you wait.
+There has not currently been any development on *Atmosphère-NX*.
 
 ## What does this guide install?
 
@@ -37,7 +39,7 @@ Nothing; the end result will allow you to run Homebrew applications on your cons
 ## What do I need to know before starting?
 
 + **Before beginning the guide, you must know the risks of Switch hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on the Switch on firmware 3.0.0 or below. Anything above does not currently have available exploits.
++ This guide will work on the Switch on firmware 3.0.0 or below. Anything above does not currently have publicly available exploits.
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
 + Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
 
