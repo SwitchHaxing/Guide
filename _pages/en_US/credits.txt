@@ -6,6 +6,7 @@ If I forgot you here, contact me and I'll add your name.
 
 {% capture notice-1 %}
 
+   + Plailect for the incredible 3ds.guide for which this guide is based from.
    + The amazing developers part of ReSwitched.
    + SwitchBrew wiki editors.
    + All of the members of the SwitchHaxing subreddit.
