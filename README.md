@@ -1,3 +1,5 @@
+# As of now this guide is officially finished. We just wanted to mess around and see what we could come up with; the real, official guide will be left to Plailect as they have the experience and time to keep it updated.
+
 # switchhaxing.github.io
 A complete guide to Switch homebrew, from stock to being able to run some Homebrew.
 
